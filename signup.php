@@ -45,7 +45,7 @@
 		 Confirm your email
 		 Click the link below to verify your account
 		 
-		 http;//localhost/myweb/emailconfirm.php?username=$username&confirmcode=$confirmcode
+		 http;//localhost/mywebapp/emailconfirm.php?username=$username&confirmcode=$confirmcode
 		 ";
 		 
 		 mail( $email,"Mywebapp confirm Email", $message,"From: mywebapp@gmail.com");
